@@ -12,12 +12,16 @@
     box-shadow: none !important;
 }
 
+ul li{
+    text-align: center;
+}
+
 ul li a {
     padding: 13.2px 0px !important;
 }
 
 ul li:hover {
-    background-color: darkslategrey;
+    background-color: #1A252F;
 }
 
 .pad {
