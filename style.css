@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+ul li a {
+    padding: 13.2px 0px !important;
+}
+
+ul li:hover {
+    background-color: darkslategrey;
+}
+
+.pad {
+    padding: 0 !important;
+}
+
+.portfolio {
+    padding: 0 !important;
+}
+
 .vector {
     width: 33px;
     height: 32px;
@@ -19,12 +49,8 @@
 }
 
 img {
-    width: 335px;
-    height: 179px;
-}
-
-li:hover {
-    color: aquamarine;
+    width: 320px;
+    height: 200px;
 }
 
 .row {
