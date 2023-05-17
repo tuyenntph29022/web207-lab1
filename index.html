@@ -30,19 +30,19 @@
     <!-- navbar responsive use bootstrap 5 -->
     <nav class="navbar navbar-expand-sm" style="background-color: #2C3E50;">
         <a href="" class="navbar-brand fs-5 ms-3 text-white">MY STORIES</a>
-        <button class="navbar-toggler me-1 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
-            <i class="bx bx-menu bx-sm"></i>
+        <button class="navbar-toggler me-1 text-white fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+            <!-- <i class="bx bx-menu bx-sm"></i> -->Menu
         </button>
         <div class="collapse navbar-collapse" id="btn">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white mx-3 fs-6">PORTFOLIO</a>
+                    <a href="#portfolio" class="nav-link text-white mx-3 fs-6">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white mx-3 fs-6">ABOUT</a>
+                    <a href="#about" class="nav-link text-white mx-3 fs-6">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white mx-3 fs-6">CONTACT ME</a>
+                    <a href="#contact" class="nav-link text-white mx-3 fs-6">CONTACT ME</a>
                 </li>
             </ul>
         </div>
@@ -60,7 +60,8 @@
     </div>
 
     <!-- Content -->
-    <div class="portfolio container-fluid row mx-auto text-center">
+    <!-- Tạo id để khi href đến id này thì trang web sẽ tự động dẫn đến đoạn đã được đặt id đó -->
+    <div class="container-fluid row mx-auto text-center" id="portfolio">
         <h5 class="text-centermb-3 pt-5" style="color: #2C3E50;">PORTFOLIO</h5>
         <div class="pad text-center">
             <img class="rectangle" src="./img/Rectangle.png" alt="">
@@ -88,7 +89,7 @@
         </div>
     </div>
 
-    <div class="about container-fluid text-center py-5 my-5" style="background-color: #1ABC9C;">
+    <div class="container-fluid text-center py-5 my-5" style="background-color: #1ABC9C;" id="about">
         <h5 class="text-white">ABOUT</h5>
         <img class="rectangle" src="./img/Rectangle (1).png" alt="">
         <img class="vector" src="./img/Vector (5).png" alt="">
@@ -108,31 +109,31 @@
             Download!</button>
     </div>
 
-    <div class="contact text-center">
+    <div class="text-center" id="contact">
         <h5 style="color: #2C3E50;">CONTACT ME</h5>
         <img class="rectangle" src="./img/Rectangle.png" alt="">
         <img class="vector" src="./img/Vector.png" alt="">
         <img class="rectangle" src="./img/Rectangle.png" alt="">
         <div class="my-3">
             <div>
-                <input class="inp w-full m-2 py-2 border-start border-end border-top rounded" type="text"
+                <input class="inp w-full m-2 py-2 px-2 border-start border-end border-top rounded" type="text"
                     placeholder="Full name">
             </div>
             <div>
-                <input class="inp w-full m-2 py-2 border-start border-end border-top rounded" type="text"
+                <input class="inp w-full m-2 py-2 px-2 border-start border-end border-top rounded" type="text"
                     placeholder="Email address">
             </div>
             <div>
-                <input class="inp w-full m-2 py-2 border-start border-end border-top rounded" type="text"
+                <input class="inp w-full m-2 py-2 px-2 border-start border-end border-top rounded" type="text"
                     placeholder="Phone number">
             </div>
             <div>
-                <input class="inp w-full m-2 py-2 border-start border-end border-top rounded" type="text"
+                <input class="inp w-full m-2 py-2 px-2 border-start border-end border-top rounded" type="text"
                     placeholder="Message">
             </div>
         </div>
-        
-        <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
+
+        <button class="btn btn-primary btn-xl border-white" id="submitButton" type="submit">Send</button>
     </div>
 
 
